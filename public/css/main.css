@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+@import url(https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,300..700;1,300..700&family=Inter:wght@300..700&family=IBM+Plex+Sans+Arabic:wght@400;500;700&display=swap);
+/* Import: Sora */
+@font-face {
+  font-family: "Sora";
+  src: local("Sora Regular"),url('../fonts/sora/Sora-Regular.ttf'),url('../fonts/sora/Sora-Regular.ttf');
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+  font-display: swap;
+  ascent-override: 100%
+}
+@font-face {
+  font-family: "Sora";
+  src: local("Sora Medium"),url('../fonts/sora/Sora-Medium.ttf'),url('../fonts/sora/Sora-Medium.ttf');
+  font-weight: 500;
+  text-rendering: optimizeLegibility;
+  font-display: swap;
+  ascent-override: 100%
+}
+@font-face {
+  font-family: "Sora";
+  src: local("Sora Semibold"),url('../fonts/sora/Sora-SemiBold.ttf'),url('../fonts/sora/Sora-SemiBold.ttf');
+  font-weight: 700;
+  text-rendering: optimizeLegibility;
+  font-display: swap;
+  ascent-override: 100%
+}
+/* Import: Mabry Pro */
+@font-face {
+  font-family: "Mabry Pro";
+  src: local("Mabry Pro Regular"),url('../fonts/mabry-pro/MabryPro-Regular.woff2'),url('../fonts/mabry-pro/MabryPro-Regular.woff');
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+  font-display: swap;
+  ascent-override: 90%
+}
+@font-face {
+  font-family: "Mabry Pro";
+  src: local("Mabry Pro Bold"),url('../fonts/mabry-pro/MabryPro-Bold.woff2'),url('../fonts/mabry-pro/MabryPro-Bold.woff');
+  font-weight: 700;
+  text-rendering: optimizeLegibility;
+  font-display: swap;
+  ascent-override: 90%
+}
+@import url(https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,600;1,400;1,600&family=IBM+Plex+Sans+Arabic:wght@400;700&display=swap);
+:root {
+  /*
+   * Css vars font
+   *//*
+   * Css vars font-family
+   */--font-family-primary: "Sora","IBM Plex Sans Arabic",sans-serif;
+  --font-family-secondary: "Sora","IBM Plex Sans Arabic",serif;
+  --font-family-tertiary: "Sora","IBM Plex Sans Arabic",serif;
+  --font-family-serif: serif,"IBM Plex Sans Arabic",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  --font-family-script: Segoe Script,"IBM Plex Sans Arabic",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  --font-family-mono: monospace,"IBM Plex Sans Arabic",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
