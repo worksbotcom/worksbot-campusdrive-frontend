@@ -363,6 +363,12 @@ const handleFileChange = (e) => {
                 <SelectItem value="Annai Vailankanni College of Engineering">
                   Annai Vailankanni College of Engineering
                 </SelectItem>
+                <SelectItem value="Rathinam College of Arts and Science">
+                  Rathinam College of Arts and Science
+                </SelectItem>
+                <SelectItem value="Rathinam Technical Campus">
+                  Rathinam Technical Campus
+                </SelectItem>
                 <SelectItem value="Sri Shanmugha College of Engineering and Technology">
                   Sri Shanmugha College of Engineering and Technology
                 </SelectItem>
