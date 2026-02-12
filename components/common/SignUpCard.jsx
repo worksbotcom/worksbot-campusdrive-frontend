@@ -360,6 +360,9 @@ const handleFileChange = (e) => {
                 <SelectValue placeholder="Select College Name" />
               </SelectTrigger>
               <SelectContent>
+                <SelectItem value="Karunya University">
+                  Karunya University
+                </SelectItem>
                 <SelectItem value="Annai Vailankanni College of Engineering">
                   Annai Vailankanni College of Engineering
                 </SelectItem>
